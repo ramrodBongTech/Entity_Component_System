@@ -2,7 +2,6 @@
 
 #include <vector>
 #include "Component.h"
-#include "HealthComponent.h"
 
 using namespace std;
 
@@ -18,4 +17,28 @@ public:
 
 protected:
 	vector<Component> m_components;
+};
+
+class Player : public Entity
+{
+public:
+	Player() :Entity(){}
+};
+
+class Cat : public Entity
+{
+public:
+	Cat() :Entity(){}
+};
+
+class Dog : public Entity
+{
+public:
+	Dog() :Entity(){}
+};
+
+class Alien : public Entity
+{
+public:
+	Alien() :Entity(){}
 };

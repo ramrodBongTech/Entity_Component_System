@@ -30,22 +30,19 @@
     <ClInclude Include="Component.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HealthComponent.h">
+    <ClInclude Include="HealthSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PositionComponent.h">
+    <ClInclude Include="PositionSystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ControlComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BasicTypes.h">
+    <ClInclude Include="HealthComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HealthSystem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PositionSystem.h">
+    <ClInclude Include="PositionComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

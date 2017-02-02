@@ -2,8 +2,8 @@
 
 #include "Component.h"
 
-class ControlComponent : Component
+class ControlComponent : public Component
 {
 public:
-	ControlComponent() : Component(){ m_type = "control"; }
+	ControlComponent(){ m_type = "control"; }
 };

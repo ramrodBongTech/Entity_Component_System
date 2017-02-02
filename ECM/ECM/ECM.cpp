@@ -8,10 +8,10 @@
 
 int main()
 {
-	Entity _player;
-	Entity _cat;
-	Entity _dog;
-	Entity _alien;
+	Player _player;
+	Cat _cat;
+	Dog _dog;
+	Alien _alien;
 
 	_player.addComponent(HealthComponent());
 	_player.addComponent(PositionComponent());
@@ -42,6 +42,8 @@ int main()
 	{
 		_hs.update();
 		_ps.update();
+
+		system("PAUSE");
 	}
 
 	return 0;
